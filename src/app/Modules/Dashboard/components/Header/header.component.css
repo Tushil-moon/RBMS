@@ -1,0 +1,43 @@
+strong{
+    color: #8178ff;
+}
+i{
+    font-size: 20px;
+}
+
+button{
+    background-color: #7269ef;
+    padding: 5px 15px;
+}
+button:hover{
+    background-color: #4d47ab;
+}
+button:focus{
+    background-color: #4d47ab;
+}
+
+.navbar{
+    padding: 18px 12px;
+}
+
+nav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+}
+@media screen and (max-width: 420px) {
+    h3{
+        font-size: 16px;
+    }
+
+    button{
+        padding: 3px 10px !important;
+        font-size: 12px;
+    }
+
+    strong{
+        font-size: 12px;
+    }
+}
+
+a{
+    cursor: pointer;
+}

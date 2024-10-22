@@ -1,0 +1,91 @@
+{
+    "LOGIN": {
+      "TITLE": "Autentificare",
+      "DESCRIPTION": "Autentifică-te pentru a continua",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Introdu Email",
+      "EMAIL_REQUIRED": "Email-ul este necesar",
+      "PASSWORD_LABEL": "Parolă",
+      "PASSWORD_PLACEHOLDER": "Introdu Parola",
+      "PASSWORD_REQUIRED": "Parola este necesară și trebuie să aibă cel puțin 6 caractere",
+      "SIGN_IN": "Autentificare",
+      "NO_ACCOUNT": "Nu ai un cont?",
+      "SIGNUP_NOW": "Înscrie-te acum"
+    },
+  
+    "SIGNUP": {
+      "TITLE": "Înscriere",
+      "DESCRIPTION": "Obține-ți contul acum.",
+      "ROLE_LABEL": "Selectează Opțiunea",
+      "ROLE_PLACEHOLDER": "Selectează un rol",
+      "ROLE_REQUIRED": "Rolul este necesar",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Introdu Email",
+      "EMAIL_REQUIRED": "Introdu un email valid",
+      "USERNAME_LABEL": "Nume utilizator",
+      "USERNAME_PLACEHOLDER": "Introdu Numele utilizatorului",
+      "USERNAME_REQUIRED": "Numele utilizatorului este necesar",
+      "PASSWORD_LABEL": "Parolă",
+      "PASSWORD_PLACEHOLDER": "Introdu Parola",
+      "PASSWORD_REQUIRED": "Parola este necesară și trebuie să aibă cel puțin 6 caractere",
+      "SIGN_UP_BUTTON": "Înscriere",
+      "ALREADY_HAVE_ACCOUNT": "Ai deja un cont?",
+      "SIGN_IN_LINK": "Autentificare"
+    },
+    
+    "ROLES": {
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Utilizator"
+    },
+    
+    "HEADER": {
+      "PRODUCT_DASHBOARD": "Panoul de produse",
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Utilizator",
+      "USERNAME": "Nume utilizator",
+      "LOGOUT": "Deconectare",
+      "TOGGLE_DARK_MODE": "Comută modul întunecat",
+      "DARK_MODE": "Mod Întunecat",
+      "LIGHT_MODE": "Mod Luminat"
+    },
+    
+    "DASHBOARD": {
+      "PRODUCT_DASHBOARD": "Panoul de produse",
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Utilizator",
+      "USERNAME": "Nume utilizator",
+      "LOGOUT": "Deconectare",
+      "TOGGLE_DARK_MODE": "Comută modul întunecat",
+      "DARK_MODE": "Mod Întunecat",
+      "LIGHT_MODE": "Mod Luminat",
+      "SORT_PRODUCTS": "Sortează produsele",
+      "SORT_BY_PRODUCT_NAME": "Sortează după numele produsului:",
+      "SORT_ASCENDING": "A-Z",
+      "SORT_DESCENDING": "Z-A",
+      "SEARCH_PRODUCT": "Caută produsul",
+      "PRODUCT_OVERVIEW": "Prezentare generală a produsului",
+      "ADD_PRODUCT": "Adaugă Produs",
+      "PRODUCT_ID": "ID Produs",
+      "PRODUCT_NAME": "Nume Produs",
+      "PRODUCT_DESCRIPTION": "Descriere Produs",
+      "PRODUCT_PRICE": "Preț Produs",
+      "ACTIONS": "Acțiuni",
+      "VIEW": "Vezi",
+      "EDIT": "Editează",
+      "DELETE": "Șterge",
+      "UPDATE_PRODUCT": "Actualizează Produs",
+      "ADD_NEW_PRODUCT": "Adaugă Produs Nou",
+      "PRODUCT_NAME_REQUIRED": "Numele produsului este necesar.",
+      "PRODUCT_DESCRIPTION_REQUIRED": "Descrierea produsului este necesară.",
+      "PRODUCT_PRICE_REQUIRED": "Prețul produsului este necesar și trebuie să fie mai mare decât 0.",
+      "DELETE_PRODUCT": "Șterge Produs",
+      "CONFIRM_DELETE_PRODUCT": "Ești sigur că vrei să ștergi produsul?",
+      "CLOSE": "Închide",
+      "VIEW_PRODUCT_DETAILS": "Vezi Detalii Produs",
+      "NO_PRODUCT_SELECTED": "Niciun produs selectat."
+    }
+  }
+  

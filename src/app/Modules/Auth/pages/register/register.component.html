@@ -1,0 +1,90 @@
+<div class="account-pages pt-sm-4 vh-100 d-flex align-items-center justify-content-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-5">
+                <div class="text-center mb-2">
+                    <h4>{{ 'SIGNUP.TITLE' | translate }}</h4>
+                </div>
+                <div class="card">
+                    <div class="card-body p-4">
+                        <div class="p-3">
+                            <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+
+                                <div class="mb-2">
+                                    <label class="form-label">{{ 'SIGNUP.ROLE_LABEL' | translate }}</label>
+                                    <div class="input-group bg-light-subtle rounded-3">
+                                        <span class="input-group-text text-muted" id="basic-addon5">
+                                            <i class="ri-shield-user-line"></i>
+                                        </span>
+                                        <select formControlName="role" class="form-control form-control-lg bg-light-subtle border-light"
+                                            aria-describedby="basic-addon5">
+                                            <option selected disabled>{{ 'SIGNUP.ROLE_PLACEHOLDER' | translate }}</option>
+                                            <option value="Admin">{{ 'ROLES.ADMIN' | translate }}</option>
+                                            <option value="Manager">{{ 'ROLES.MANAGER' | translate }}</option>
+                                            <option value="User">{{ 'ROLES.USER' | translate }}</option>
+                                        </select>
+                                    </div>
+                                    @if(signupForm.get('role')?.invalid && signupForm.get('role')?.touched){
+                                        <small class="text-danger">{{ 'SIGNUP.ROLE_REQUIRED' | translate }}</small>
+                                    }
+                                </div>
+
+                                <div class="mb-2">
+                                    <label class="form-label">{{ 'SIGNUP.EMAIL_LABEL' | translate }}</label>
+                                    <div class="input-group bg-light-subtle rounded-3">
+                                        <span class="input-group-text text-muted" id="basic-addon5">
+                                            <i class="ri-mail-line"></i>
+                                        </span>
+                                        <input formControlName="email" type="email" class="form-control form-control-lg bg-light-subtle border-light"
+                                            placeholder="{{ 'SIGNUP.EMAIL_PLACEHOLDER' | translate }}"  aria-describedby="basic-addon5">
+                                    </div>
+                                    @if(signupForm.get('email')?.invalid && signupForm.get('email')?.touched){
+                                        <small class="text-danger">{{ 'SIGNUP.EMAIL_REQUIRED' | translate }}</small>
+                                    }
+                                </div>
+
+                                <div class="mb-2">
+                                    <label class="form-label">{{ 'SIGNUP.USERNAME_LABEL' | translate }}</label>
+                                    <div class="input-group bg-light-subtle rounded-3">
+                                        <span class="input-group-text border-light text-muted" id="basic-addon6">
+                                            <i class="ri-user-2-line"></i>
+                                        </span>
+                                        <input formControlName="username" type="text" class="form-control form-control-lg bg-light-subtle border-light"
+                                            placeholder="{{ 'SIGNUP.USERNAME_PLACEHOLDER' | translate }}" aria-describedby="basic-addon6">
+                                    </div>
+                                    @if(signupForm.get('username')?.invalid && signupForm.get('username')?.touched){
+                                        <small class="text-danger">{{ 'SIGNUP.USERNAME_REQUIRED' | translate }}</small>
+                                    }
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">{{ 'SIGNUP.PASSWORD_LABEL' | translate }}</label>
+                                    <div class="input-group bg-light-subtle rounded-3">
+                                        <span class="input-group-text border-light text-muted" id="basic-addon7">
+                                            <i class="ri-lock-2-line"></i>
+                                        </span>
+                                        <input formControlName="password" type="password"
+                                            class="form-control form-control-lg bg-light-subtle border-light" placeholder="{{ 'SIGNUP.PASSWORD_PLACEHOLDER' | translate }}"
+                                           aria-describedby="basic-addon7">
+                                    </div>
+                                    @if(signupForm.get('password')?.invalid && signupForm.get('password')?.touched){
+                                        <small class="text-danger">{{ 'SIGNUP.PASSWORD_REQUIRED' | translate }}</small>
+                                    }
+                                </div>
+
+                                <div class="d-grid">
+                                    <button class="btn btn-primary waves-effect waves-light" type="submit">{{ 'SIGNUP.SIGN_UP_BUTTON' | translate }}</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p>{{ 'SIGNUP.ALREADY_HAVE_ACCOUNT' | translate }} <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="fw-medium text-primary">{{ 'SIGNUP.SIGN_IN_LINK' | translate }}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

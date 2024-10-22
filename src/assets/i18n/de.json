@@ -1,0 +1,91 @@
+{
+    "LOGIN": {
+      "TITLE": "Anmelden",
+      "DESCRIPTION": "Melden Sie sich an, um fortzufahren",
+      "EMAIL_LABEL": "E-Mail",
+      "EMAIL_PLACEHOLDER": "E-Mail eingeben",
+      "EMAIL_REQUIRED": "E-Mail ist erforderlich",
+      "PASSWORD_LABEL": "Passwort",
+      "PASSWORD_PLACEHOLDER": "Passwort eingeben",
+      "PASSWORD_REQUIRED": "Passwort ist erforderlich und muss mindestens 6 Zeichen lang sein",
+      "SIGN_IN": "Anmelden",
+      "NO_ACCOUNT": "Haben Sie kein Konto?",
+      "SIGNUP_NOW": "Jetzt registrieren"
+    },
+  
+    "SIGNUP": {
+      "TITLE": "Registrierung",
+      "DESCRIPTION": "Holen Sie sich jetzt Ihr Konto.",
+      "ROLE_LABEL": "Wählen Sie Option",
+      "ROLE_PLACEHOLDER": "Wählen Sie eine Rolle",
+      "ROLE_REQUIRED": "Rolle ist erforderlich",
+      "EMAIL_LABEL": "E-Mail",
+      "EMAIL_PLACEHOLDER": "E-Mail eingeben",
+      "EMAIL_REQUIRED": "Geben Sie eine gültige E-Mail ein",
+      "USERNAME_LABEL": "Benutzername",
+      "USERNAME_PLACEHOLDER": "Benutzername eingeben",
+      "USERNAME_REQUIRED": "Benutzername ist erforderlich",
+      "PASSWORD_LABEL": "Passwort",
+      "PASSWORD_PLACEHOLDER": "Passwort eingeben",
+      "PASSWORD_REQUIRED": "Passwort ist erforderlich und muss mindestens 6 Zeichen lang sein",
+      "SIGN_UP_BUTTON": "Registrieren",
+      "ALREADY_HAVE_ACCOUNT": "Haben Sie bereits ein Konto?",
+      "SIGN_IN_LINK": "Anmelden"
+    },
+  
+    "ROLES": {
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Benutzer"
+    },
+  
+    "HEADER": {
+      "PRODUCT_DASHBOARD": "Produkt Dashboard",
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Benutzer",
+      "USERNAME": "Benutzername",
+      "LOGOUT": "Abmelden",
+      "TOGGLE_DARK_MODE": "Dunkelmodus umschalten",
+      "DARK_MODE": "Dunkler Modus",
+      "LIGHT_MODE": "Heller Modus"
+    },
+  
+    "DASHBOARD": {
+      "PRODUCT_DASHBOARD": "Produkt Dashboard",
+      "ADMIN": "Admin",
+      "MANAGER": "Manager",
+      "USER": "Benutzer",
+      "USERNAME": "Benutzername",
+      "LOGOUT": "Abmelden",
+      "TOGGLE_DARK_MODE": "Dunkelmodus umschalten",
+      "DARK_MODE": "Dunkler Modus",
+      "LIGHT_MODE": "Heller Modus",
+      "SORT_PRODUCTS": "Produkte sortieren",
+      "SORT_BY_PRODUCT_NAME": "Nach Produktname sortieren:",
+      "SORT_ASCENDING": "A-Z",
+      "SORT_DESCENDING": "Z-A",
+      "SEARCH_PRODUCT": "Produkt suchen",
+      "PRODUCT_OVERVIEW": "Produktübersicht",
+      "ADD_PRODUCT": "Produkt hinzufügen",
+      "PRODUCT_ID": "Produkt-ID",
+      "PRODUCT_NAME": "Produktname",
+      "PRODUCT_DESCRIPTION": "Produktbeschreibung",
+      "PRODUCT_PRICE": "Produktpreis",
+      "ACTIONS": "Aktionen",
+      "VIEW": "Ansehen",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "UPDATE_PRODUCT": "Produkt aktualisieren",
+      "ADD_NEW_PRODUCT": "Neues Produkt hinzufügen",
+      "PRODUCT_NAME_REQUIRED": "Produktname ist erforderlich.",
+      "PRODUCT_DESCRIPTION_REQUIRED": "Produktbeschreibung ist erforderlich.",
+      "PRODUCT_PRICE_REQUIRED": "Produktpreis ist erforderlich und muss größer als 0 sein.",
+      "DELETE_PRODUCT": "Produkt löschen",
+      "CONFIRM_DELETE_PRODUCT": "Sind Sie sicher, dass Sie das Produkt löschen möchten?",
+      "CLOSE": "Schließen",
+      "VIEW_PRODUCT_DETAILS": "Produktdetails anzeigen",
+      "NO_PRODUCT_SELECTED": "Kein Produkt ausgewählt."
+    }
+  }
+  

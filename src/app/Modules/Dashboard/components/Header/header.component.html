@@ -1,0 +1,51 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Navbar Title -->
+        <div class="d-flex justify-content-between align-items-center">
+            <!-- Title -->
+            <h3 class="mb-0 me-auto">{{ 'HEADER.PRODUCT_DASHBOARD' | translate }}</h3>
+            
+            <!-- Language Dropdown -->
+            <div class="ms-3">
+              <select class="form-select" aria-label="Language Select" (change)="changeLanguage($event)" style="min-width: 150px;">
+                <option value="en" [selected]="selectedLang() === 'en'">English</option>
+                <option value="de" [selected]="selectedLang() === 'de'">German</option>
+                <option value="ro" [selected]="selectedLang() === 'ro'">Romanian</option>
+              </select>
+            </div>
+          </div> 
+
+        <!-- User Info and Logout Button -->
+        <div class="d-flex align-items-center">
+            <!-- Icon and User Info -->
+            <div class="d-flex align-items-center me-3">
+                @switch (auth.getUser().role) {
+                    @case('Admin') {
+                        <i class="ri-admin-fill me-2" title="{{ 'HEADER.ADMIN' | translate }}"></i>
+                    }
+                    @case('Manager') {
+                        <i class="ri-user-2-fill me-2" title="{{ 'HEADER.MANAGER' | translate }}"></i>
+                    }
+                    @case('User') {
+                        <i class="ri-user-fill me-2" title="{{ 'HEADER.USER' | translate }}"></i>
+                    }
+                }
+                <strong>{{ auth.getUser().username }} ({{ auth.getUser().role | translate: { value: 'HEADER.' + auth.getUser().role } }})</strong>
+            </div>
+
+            <!-- Logout Button -->
+            <button class="btn btn-danger btn-sm" (click)="logout()">{{ 'HEADER.LOGOUT' | translate }}</button>
+
+            <div class="d-flex">
+                @switch (isDark()) {
+                    @case(true) {
+                        <i class="ri-moon-fill ms-4 fs-3 me-3" (click)="toggleDarkMode()" title="{{ 'HEADER.LIGHT_MODE' | translate }}"></i>
+                    }
+                    @case(false) {
+                        <i class="ri-sun-fill ms-4 fs-3 me-3" (click)="toggleDarkMode()" title="{{ 'HEADER.DARK_MODE' | translate }}"></i>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</nav>

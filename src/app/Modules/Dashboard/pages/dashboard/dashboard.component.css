@@ -1,0 +1,165 @@
+.dashboard {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex; /* Adjusted from block to flex for better alignment */
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+}
+
+ .dropdown span {
+    padding-left: 10px;
+    position: relative;
+    bottom: 2px;
+}
+/*
+.dropdown-button {
+    background: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.dropdown-button:hover {
+    background-color: #eaeaea;
+} */
+
+.table {
+    background-color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.table thead {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 1;
+}
+
+.table th {
+    z-index: 2;
+    color: #7269ef;
+}
+
+.table td {
+    padding: 5px 12px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.responsive {
+    max-height: 450px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.responsive::-webkit-scrollbar {
+    width: 7px;
+}
+
+.responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.responsive::-webkit-scrollbar-thumb {
+    background: #7269ef;
+    border-radius: 10px;
+}
+
+.sort {
+    padding-left: 20px;
+}
+
+.main-content .addpro {
+    padding: 5px 15px;
+}
+
+.dropdown a {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dropdown i {
+    cursor: pointer;
+    font-size: 14px;
+}
+.dropdown-menu{
+    min-width: 115px;
+}
+/* Ensure the header stays fixed at the top with proper z-index */
+app-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    height: 60px
+}
+
+/* Sidebar and main content should start below the header */
+.sidebar {
+    margin-top: 68px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    /* padding-top: 20px; */
+    background-color: #343a40;
+    color: white;
+}
+
+.main-content {
+    margin-top: 68px;
+    height: calc(100vh - 60px);
+    /* padding: 20px; */
+    background-color: #f8f9fa;
+}
+
+.responsive {
+    max-height: 450px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.dropdown-menu {
+    z-index: 1000;
+}
+
+@media screen and (max-width: 420px) {
+    /* Example styles for smaller screens */
+    
+    .container {
+      padding: 10px;
+    }
+  
+    .card {
+      width: 100%; /* Full width for cards on small screens */
+    }
+  
+    h5 {
+      font-size: 1rem; /* Adjust heading size */
+    }
+  
+    .input-group-text {
+      font-size: 0.8rem; /* Adjust icon size in form inputs */
+    }
+    .sidebar[_ngcontent-ng-c2264040886] {
+        margin-top: 68px;
+        height: auto;
+    }
+    .main-content[_ngcontent-ng-c2264040886] {
+        margin-top: 0;
+        height: calc(100vh - 60px);
+        padding: 20px;
+        background-color: #f8f9fa;
+
+        
+    }
+  }
+  
